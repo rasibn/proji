@@ -15,7 +15,7 @@ import (
 func main() {
 	app := &cli.App{
 		Name:  "proji",
-		Usage: "Manage tmux sessions with project dir select",
+		Usage: "Fuzzy find and open project directory in with tmux sessions",
 		Action: func(c *cli.Context) error {
 			var selected string
 
